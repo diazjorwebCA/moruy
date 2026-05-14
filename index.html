@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Moruy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="infographic-container">
+        
+        <!-- HEADER -->
+        <header class="header-section fade-in">
+            <div class="header-content">
+                <div class="header-text">
+                    <h1>Proyecto de Innovación Educativa en <span>Moruy</span></h1>
+                    <p>Una iniciativa para transformar la experiencia educativa de los estudiantes en la Península de Paraguaná, conectando la formación científica con la realidad socio-productiva local.</p>
+                </div>
+                <div class="header-image-container">
+                    <img src="moruy_header.png" alt="Innovación Educativa Moruy" class="header-image">
+                </div>
+            </div>
+        </header>
+
+        <!-- RESUMEN BANNER -->
+        <section class="banner fade-in" style="background-image: linear-gradient(rgba(10, 15, 40, 0.85), rgba(10, 15, 40, 0.85)), url('moruy_banner.png');">
+            <div class="banner-content">
+                <div class="quote-icon">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                </div>
+                <h2>"Fomentando la autonomía, el trabajo colaborativo y la resolución de problemas mediante metodologías ágiles y desarrollo endógeno."</h2>
+            </div>
+        </section>
+
+        <!-- PROBLEMÁTICA ACTUAL -->
+        <section class="problematic-section fade-in">
+            <h2 class="section-title">Análisis de la Problemática</h2>
+            <div class="cards-grid">
+                
+                <div class="card">
+                    <div class="card-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="12" y1="2" x2="12" y2="22"></line><line x1="2" y1="12" x2="22" y2="12"></line></svg>
+                    </div>
+                    <h3>Brecha Teórico-Práctica</h3>
+                    <p>Separación entre ciencias y necesidades socio-productivas.</p>
+                    <button class="interactive-btn" data-target="brecha">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                    </button>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                    </div>
+                    <h3>Limitaciones Estudiantiles</h3>
+                    <p>Baja motivación intrínseca y falta de autonomía.</p>
+                    <button class="interactive-btn" data-target="limitaciones">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                    </button>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    </div>
+                    <h3>Subutilización del Entorno</h3>
+                    <p>El Cerro Santa Ana no se aprovecha pedagógicamente.</p>
+                    <button class="interactive-btn" data-target="entorno">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CRITERIOS DE SELECCIÓN -->
+        <section class="criteria-section fade-in">
+            <h2 class="section-title">Criterios de Selección y Viabilidad</h2>
+            <div class="standards-grid">
+                
+                <div class="standard-item">
+                    <div class="std-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg></div>
+                    <div class="std-content">
+                        <h3>Viabilidad Territorial</h3>
+                        <p>Uso exclusivo de recursos propios.</p>
+                    </div>
+                    <button class="interactive-btn sm" data-target="viabilidad">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                    </button>
+                </div>
+
+                <div class="standard-item">
+                    <div class="std-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div>
+                    <div class="std-content">
+                        <h3>Pertinencia Social</h3>
+                        <p>Respuesta a problemas diagnosticados.</p>
+                    </div>
+                    <button class="interactive-btn sm" data-target="pertinencia">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                    </button>
+                </div>
+
+                <div class="standard-item">
+                    <div class="std-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg></div>
+                    <div class="std-content">
+                        <h3>Innovación Educativa</h3>
+                        <p>Metodologías ágiles en educación media.</p>
+                    </div>
+                    <button class="interactive-btn sm" data-target="innovacion">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                    </button>
+                </div>
+
+                <div class="standard-item">
+                    <div class="std-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+                    <div class="std-content">
+                        <h3>Sostenibilidad</h3>
+                        <p>Alineación con el desarrollo sustentable.</p>
+                    </div>
+                    <button class="interactive-btn sm" data-target="sostenibilidad">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- OBJETIVOS ESTRATÉGICOS -->
+        <section class="objectives-section fade-in">
+            <h2 class="section-title">Objetivos Estratégicos</h2>
+            <div class="cards-grid">
+                
+                <div class="card objective-card">
+                    <div class="card-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line></svg></div>
+                    <h3>Metodologías Ágiles</h3>
+                    <p>Formación en Scrum y EduScrum con tableros offline.</p>
+                    <button class="interactive-btn" data-target="agiles">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                    </button>
+                </div>
+
+                <div class="card objective-card">
+                    <div class="card-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></div>
+                    <h3>Diagnóstico Comunitario</h3>
+                    <p>Identificar necesidades y potencialidades de Moruy.</p>
+                    <button class="interactive-btn" data-target="diagnostico">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                    </button>
+                </div>
+
+                <div class="card objective-card">
+                    <div class="card-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09a1.65 1.65 0 00-1-1.51 1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09a1.65 1.65 0 001.51-1 1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z"></path></svg></div>
+                    <h3>Diseño Colectivo</h3>
+                    <p>Propuestas científicas sustentables en co-creación.</p>
+                    <button class="interactive-btn" data-target="diseno">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                    </button>
+                </div>
+
+                <div class="card objective-card">
+                    <div class="card-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg></div>
+                    <h3>Construcción Sprints</h3>
+                    <p>Desarrollo mediante ciclos de trabajo cortos.</p>
+                    <button class="interactive-btn" data-target="sprints">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONCLUSION -->
+        <section class="banner conclusion fade-in" style="background: linear-gradient(135deg, rgba(0, 229, 255, 0.1) 0%, rgba(10, 15, 40, 0.9) 100%); margin-top: 4rem; border: 1px solid rgba(0, 229, 255, 0.3);">
+            <div class="banner-content">
+                <h2>El Proyecto Moruy representa un cambio de paradigma en la educación diversificada.</h2>
+                <p style="margin-top: 1rem; font-size: 1.1rem; color: #b0b0d0;">Al trasladar el aprendizaje del aula a la realidad territorial, y combinar la agilidad tecnológica con el desarrollo endógeno, buscamos empoderar a la juventud de Paraguaná como agentes activos de cambio social y ambiental.</p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>Infografía Interactiva • Proyecto Moruy • Sin dependencias</p>
+        </footer>
+
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal-overlay" id="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="close-modal">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+            <div class="modal-body">
+                <h2 id="modal-title">Título</h2>
+                <div class="modal-divider"></div>
+                <p id="modal-text">Texto descriptivo.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
