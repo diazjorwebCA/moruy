@@ -59,6 +59,22 @@ const infoData = {
     'legal_plan': {
         title: 'Plan de la Patria',
         description: 'El proyecto se alinea con los grandes objetivos históricos del Plan de la Patria, específicamente en defender la independencia nacional mediante la soberanía tecnológica y fomentar un modelo socioproductivo sustentable.'
+    },
+    'norma_pmbok': {
+        title: 'Guía PMBOK',
+        description: 'La Guía de los Fundamentos para la Dirección de Proyectos proporciona pautas, reglas y características para la dirección de proyectos, asegurando buenas prácticas y resultados estandarizados.'
+    },
+    'norma_iso21500': {
+        title: 'Norma ISO 21500',
+        description: 'Ofrece directrices para la gestión de proyectos y puede ser utilizada por cualquier tipo de organización, brindando una descripción de alto nivel de los conceptos y procesos que se consideran buenas prácticas.'
+    },
+    'norma_iso27001': {
+        title: 'ISO/IEC 27001:2022',
+        description: 'Especifica los requisitos para establecer, implementar, mantener y mejorar continuamente un sistema de gestión de seguridad de la información dentro del contexto de la organización.'
+    },
+    'norma_wlan': {
+        title: 'Estándares WLAN 802.11',
+        description: 'Conjunto de estándares creados por el IEEE que definen la comunicación en redes inalámbricas de área local (WLAN), garantizando la interoperabilidad y el rendimiento de la red de área local.'
     }
 };
 
