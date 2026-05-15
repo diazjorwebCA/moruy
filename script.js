@@ -43,6 +43,22 @@ const infoData = {
     'sprints': {
         title: 'Construcción de Prototipos',
         description: 'Ejecutar el desarrollo de soluciones a través de ciclos de trabajo cortos y enfocados (Sprints), lo que permite una evaluación constante de la mejora continua del equipo y la viabilidad o funcionalidad del prototipo que se construye.'
+    },
+    'legal_crbv': {
+        title: 'Constitución Nacional (CRBV)',
+        description: 'La Constitución de la República Bolivariana de Venezuela establece en sus artículos 102 y 103 el derecho a una educación integral y de calidad. El artículo 299 promueve el desarrollo armónico de la economía nacional, vinculando la educación con el desarrollo socioproductivo.'
+    },
+    'legal_loe': {
+        title: 'Ley Orgánica de Educación (LOE)',
+        description: 'La LOE en su artículo 15 señala como fines de la educación el desarrollo del potencial creativo y la formación en, por y para el trabajo socioproductivo, sustentado en una perspectiva de desarrollo endógeno.'
+    },
+    'legal_locti': {
+        title: 'Ley Orgánica de Ciencia y Tecnología',
+        description: 'La Ley Orgánica de Ciencia, Tecnología e Innovación fomenta la democratización y apropiación social del conocimiento, estimulando proyectos que resuelvan problemas concretos de las comunidades mediante la ciencia y la tecnología.'
+    },
+    'legal_plan': {
+        title: 'Plan de la Patria',
+        description: 'El proyecto se alinea con los grandes objetivos históricos del Plan de la Patria, específicamente en defender la independencia nacional mediante la soberanía tecnológica y fomentar un modelo socioproductivo sustentable.'
     }
 };
 
